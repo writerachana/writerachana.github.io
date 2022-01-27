@@ -10,7 +10,17 @@ h1:hover{
 }
 p{ color: white;
 text-align: center;}
-.fancy2{ 
+
+.fancy2{
     color: black;
-    text-align: center;
-}
+    text-align: center;}
+
+
+    .img {
+        width: 200px;
+         display: inline-block ;
+        vertical-align: middle;
+        margin: 150px;
+    }
+
+
