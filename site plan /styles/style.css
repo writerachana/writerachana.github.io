@@ -1,0 +1,60 @@
+body {
+    background-color: #fcfbfb; 
+}
+header {
+    background-color:rgba(20,30,13, .7);
+    text-align: center;
+}
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}
+.icon {
+    width: 80px;
+}
+                
+nav.a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}    
+             
+.class { text-align: center ;
+
+}
+.div {
+    text-align: center;
+    width: 80px;
+}
+.social{
+    background-color:rgba(20,30,13, .7);
+}
+.msg{
+    background-color:rgba(20,30,13, .7);
+    text-align: center;  
+}
+.header{
+    background-color:rgba(20,30,13, .7);
+    text-align: center;
+}
+.mountains{
+    text-align: center;
+}
+.rapids-card{
+    text-align: center;
+}
+.camping-card{
+    text-align: center;
+}
+.home-grid{
+    text-align: center;
+}
+.hero-msg{
+    text-align: center;
+}
+.id {text-align: center;
+}
+.hero-msg{
+    text-align: center;}
+  
+    
