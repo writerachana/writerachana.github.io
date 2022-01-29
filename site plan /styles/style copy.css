@@ -3,6 +3,7 @@ body {
 }
 header {
     background-color:rgba(20,30,13, .7);
+    text-align: center;
 }
 nav a:hover {
     background-color: black;
@@ -55,6 +56,5 @@ nav.a {
 }
 .hero-msg{
     text-align: center;}
-  .div hero{
-        text-align: center;
-    }
+  
+    
