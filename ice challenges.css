@@ -21,6 +21,8 @@ text-align: center;}
          display: inline-block ;
         vertical-align: middle;
         margin: 150px;
+        text-align: center;
+        padding-right: 60px;
     }
 
 
