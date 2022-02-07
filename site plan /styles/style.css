@@ -9,7 +9,7 @@ header {
     background-color:rgba(20,30,13, .7);
     text-align:left;}
 .home-title {
-text-align: left;
+text-align:left;
 width: 60%;
 margin: 20px;
 border-radius:50%;
@@ -36,39 +36,43 @@ border-radius:50%;
     text-align: center;
 }
 .mountains{
+    display: grid;
     text-align: center;
     color: black;
     text-decoration:none;
     font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 2px;
     border: 10px solid #d9c2a3;
-    box-sizing: border-box
+    box-sizing:content-box
 }
 .rapids-card{
+    display: grid;
     text-align: center;
     color: black;
     text-decoration: none;
     font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 50px;
+    padding: 15px;
+    margin: 30px;
     border-radius: 5px;
     border: 10px solid #d9c2a3;
     box-sizing: border-box
 }
 .camping-card{
+    display: grid;
     text-align: center;
     color: black;
     text-decoration: none;
     font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 50px;
+    padding: 15px;
+    margin: 30px;
     border-radius: 5px;
     border: 10px solid #d9c2a3;
     box-sizing: border-box
 }
 .home-grid{
+    display: grid;
     text-align: center;
    color: black;
     text-decoration: none;
@@ -78,17 +82,21 @@ border-radius:50%;
     border-radius: 5px;
     border: 10px solid #d9c2a3;
     box-sizing:content-box;
+    
 }
 .hero-msg{
+    display: grid;
     text-align: center;
     color:lightcoral;
     text-decoration: none;
     font-size: 18px;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     padding: 15px 30px;
-    margin-top: 50px;
+    margin: 30px;
     border-radius: 5px;
     border: 10px solid #d9c2a3;
     box-sizing: border-box
+    
 }
 .id {text-align: center;
 }
@@ -97,15 +105,15 @@ border-radius:50%;
     color: lightcoral;
 }
   .hero{
-      text-align: center;
-    
-      color: black;
-      text-decoration: none;
-      font-size: 18px;
-      padding: 15px 30px;
-      margin-top: 50px;
-      border-radius: 5px;
-      border: 10px solid #d9c2a3;
+    display: grid;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 15px 30px;
+    margin: 30px;
+    border-radius: 5px;
+    border: 10px solid #d9c2a3;
     box-sizing: border-box
   }
   .index{
@@ -113,10 +121,11 @@ border-radius:50%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   .home-title {
+      display: grid;
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
-    font-size: 2em;
+    font-size: 1em;
     text-align:left;
-    line-height: normal;
+    line-height:0%;
 }
 nav a {
     text-decoration: none;
@@ -124,9 +133,16 @@ nav a {
     text-align: center;
     padding: 35px;
 }
-.h2{
-   text-align: center;
+.river{
+    text-align: center;
 }
+
 .book{
+    text-align: center;
+}
+.camping{
+    text-align: center;
+}
+.rapids{
     text-align: center;
 }
