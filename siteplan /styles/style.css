@@ -136,7 +136,7 @@ border-radius:50%;
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 1em;
     text-align:left;
-    line-height:0%;
+    line-height:1%;
 }
 nav a {
     text-decoration: none;
