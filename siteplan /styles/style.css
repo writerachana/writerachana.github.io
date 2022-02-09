@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 header {
-    background-color:rgba(20,30,13,7);
+    background-color:rgba(20,30,13,.7);
     text-align:left;}
 .home-title {
     display: grid;
