@@ -38,7 +38,10 @@ margin-right: auto;
 width: 80%;
 height: 400px;
 grid-column: 1;
-
+padding-top: 20px;
+padding-bottom: 20px;
+margin: 50px ;
+border: #DDA15E;
 size-adjust: 800px;
 padding-top: 10%;
 font-size: 4em;
