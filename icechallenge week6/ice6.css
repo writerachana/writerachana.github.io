@@ -3,7 +3,7 @@ body{
 background-color: white;
 }.main{
 display: grid;
-grid-template-columns: 1fr 2fr;
+grid-template-columns: 1fr 1fr 1fr;
 }
 .branding{
 
@@ -35,18 +35,13 @@ margin-right: auto;
 }
 .glasses{
 
-width: 80%;
-height: 400px;
+width: 50%;
+height: 100px;
 grid-column: 1;
-padding-top: 20px;
-padding-bottom: 20px;
-margin: 50px ;
-border: #DDA15E;
-size-adjust: 800px;
+size-adjust: 100px;
 padding-top: 10%;
 font-size: 4em;
-position: relative;
-top:auto;
+
 
 }
 .name{
