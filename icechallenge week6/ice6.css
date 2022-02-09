@@ -4,13 +4,17 @@ background-color: white;
 }.main{
 display: grid;
 grid-template-columns: 1fr 2fr;
-}.branding{
-text-align: center;
+}
+.branding{
+
 grid-column: 2;
 padding: 20px;
+width: 100%;
 height: 50px;
+text-align: center;
+font-size: 2em;
 font-weight:bold;
-inline-size: 600px;
+inline-size: 500px;
 overflow-wrap: break-word;
 padding-bottom: 50px;
 margin-left: auto;
