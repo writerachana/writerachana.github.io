@@ -1,0 +1,76 @@
+
+body{
+background-color: white;
+}.main{
+display: grid;
+grid-template-columns: 1fr 2fr;
+}.branding{
+text-align: center;
+grid-column: 2;
+padding: 20px;
+height: 50px;
+font-weight:bold;
+inline-size: 600px;
+overflow-wrap: break-word;
+padding-bottom: 50px;
+margin-left: auto;
+margin-right: auto;
+}
+.checklist{
+text-align: center;
+grid-column: 2;
+padding-top: 20px;
+height: 50px;
+font-size: 1em;
+font-weight:bold;
+inline-size: 600px;
+overflow-wrap: break-word;
+padding-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+}
+.glasses{
+
+width: 80%;
+height: 400px;
+grid-column: 1;
+
+size-adjust: 800px;
+padding-top: 10%;
+font-size: 4em;
+position: relative;
+top:auto;
+
+}
+.name{
+grid-column: 2;
+border: solid gray 1px;
+border-radius: 5px;
+border-width: 5px;
+}
+.email{
+grid-column: 2;
+border: solid gray 1px;
+border-radius: 5px;
+border-width: 5px;
+
+}
+.subscribe-box{
+grid-column:2;
+text-align:center;
+margin-top:25px;
+margin-bottom: 20px;
+}
+.subscribe{
+background-color: #DDA15E;
+border-radius: 5px;
+padding: 20px;
+color: white;
+margin-top:10px;
+margin-bottom: 10px;
+}
+.subscribe:hover{
+background-color: #BC6C25;
+}
+
+
