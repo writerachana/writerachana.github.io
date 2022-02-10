@@ -157,6 +157,12 @@ size: 80px;
     font-size: 1em;
     text-align:left;
     line-height:1%;
+
+}
+#logo_link{
+    width: 100%;
+   
+ 
 }
 nav a {
     text-decoration: none;
