@@ -202,7 +202,7 @@ justify-items: center;
   width: 200px; 
   height: 350px; 
   background-color: gold; 
-  margin-left: 10px;
+  margin-left: 1px;
   margin-top: 50px;
   grid-column: 4/6;
   grid-row: 2/4;
