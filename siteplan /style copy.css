@@ -160,6 +160,10 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+  .index:hover{
+    background-color: red;
+    color: black;
+  }
   
 
 #logo_link{
