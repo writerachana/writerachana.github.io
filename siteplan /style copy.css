@@ -98,7 +98,7 @@ nav{
 }
 .home-grid{
     display: grid;
-    grid-template-columns: 1fr 1f 1f 1f 1f 1f 1f 1f 1f 1f 1fr;
+    grid-template-columns: 1fr 1f 1f 1f 1f 1f 1f 1f 1f 1f ;
     text-align: center;
     color: black;
     text-decoration: none;
