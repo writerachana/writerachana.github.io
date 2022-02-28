@@ -1,9 +1,10 @@
 body{
-    background-color: #fcfbfb; 
+    background-color:black; 
     font-family: Raleway, Arial, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
+    
     
 }
 #card{
@@ -15,14 +16,44 @@ body{
     text-align: center;
     grid-column: 2/3;
     grid-row: 1/2;
+    border-radius: 15px 15px 0px 0px;
+    border-width: 1px;
+    margin: 0px
+   
 }
-.post{
+#post{
     grid-column: 2/3;
     grid-row: 2/3;
     text-align: center;
+    color: black;
+    background-color: white;
+    width: 300px;
+    height: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
+    align-items: center;
+    font-size: medium;
+   font-style: initial;
+}
+.first{
+    color:  rgb(5, 95, 122);
+    text-align: center;
+    margin: 5px;
+}
+.second{
+    text-align: center;
+    margin: 20px;
+}
+.third{
+    /* width: 100px; */
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
 }
 footer{
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: blue;
     padding: 25px 50px;
@@ -31,4 +62,33 @@ footer{
     justify-content: space-around;
     align-items: center;
     color:white;
+} */
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+background: #3f5b8b;
+width: 300px;
+color: white;
+margin-left: auto;
+margin-right: auto;
+border-radius: 0px 0px 15px 15px;}
+.one{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: small;
+}
+.two{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    font-size: small;
+}
+.three{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: small;
 }
