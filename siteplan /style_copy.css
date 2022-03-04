@@ -325,6 +325,10 @@ text-decoration: none;
     box-shadow: 5px 5px 10px #6f3646;
   
 }
+.arizona-img:hover,.idaho-img:hover,.utha-img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
 .arizona_img img{
     width: 100%;
     height: auto;
