@@ -351,7 +351,7 @@ p{
     text-align: center;
 }
 
-.form {
+form {
     /* Center the form on the page */
     margin: 0px auto;
     width: 400px;
@@ -359,6 +359,10 @@ p{
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
+    /* margin: 0 auto; */
+    display: flex;
+flex-direction: column;
+align-items: center;
   }
   
   ul {
@@ -369,6 +373,7 @@ p{
   
   form li + li {
     margin-top: 1em;
+    text-align: center;
   }
   
   label {
@@ -385,8 +390,10 @@ p{
     font: 1em sans-serif;
   
     /* Uniform text field size */
-    width: 300px;
+    width: 200px;
     box-sizing: border-box;
+    text-align: center;
+  
   
     /* Match form field borders */
     border: 1px solid #999;
@@ -409,12 +416,18 @@ p{
   .button {
     /* Align buttons with the text fields */
     padding-left: 90px; /* same size as the label elements */
+    height: 20px;
   }
   
   button {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
     margin-left: 5em;
+    color: white;
+    background-color: green;
+    height: 30px;
+    width: 180px;
+  
   }
   #feedback {
     background-color: antiquewhite;
@@ -429,7 +442,10 @@ p{
 .moveDown {
     margin-top: 3em;
 }
-            
+   
+.register{
+    margin: 10px;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
