@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr
+}
+
+.saved{
+    grid-row: 1;
+}
+
+.custom{
+    grid-row: 2;
+}
+
+.issue{
+    padding-top: 100px;
+    grid-row: 3;
+}
+
+.example{
+    padding-top: 100px;
+    grid-row: 4;
+}
+
+buttons {
+    display:grid;
+    grid-template-columns:2fr 2fr 1fr 2fr;
+    column-gap: 10px;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border-color: black;
+    font-style: upper;
+    padding: 10px, 20px;
+    border: white;
+    border: 5px;
+    grid-column: 2;
+    
+}
+
+.message {
+    color: blue;
+}
+
+#beach{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#beach-button{
+    border-radius: 5px;
+    background-color: blue;
+    color: whitesmoke;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+#x-mark{
+    font-weight: 10px;
+}
+
+.button2{
+    background-color: gray;
+    padding: 10px, 20 px;
+    border-radius: 5px;
+    grid-column: 3;
+}
