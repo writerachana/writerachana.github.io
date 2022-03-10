@@ -5,16 +5,18 @@ body{
 }
 
 .saved{
-    grid-row: 1;
+    grid-column: 2/3;
 }
 
 .custom{
-    grid-row: 2;
+    grid-row: 2/3;
+    grid-column: 2/3;
 }
 
 .issue{
     padding-top: 100px;
-    grid-row: 3;
+    grid-row: 3/4;
+    grid-column: 2/3;
 }
 
 .example{
@@ -22,7 +24,7 @@ body{
     grid-row: 4;
 }
 
-buttons {
+.buttons {
     display:grid;
     grid-template-columns:2fr 2fr 1fr 2fr;
     column-gap: 10px;
@@ -64,9 +66,18 @@ buttons {
     font-weight: 10px;
 }
 
+
 .button2{
     background-color: gray;
-    padding: 10px, 20 px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 17px;
+    padding-right: 17px;
     border-radius: 5px;
     grid-column: 3;
+}
+
+.x{
+    align-items: right;
+    
 }
