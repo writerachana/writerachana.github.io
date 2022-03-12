@@ -1,4 +1,7 @@
 body {
+    display: grid;
+    
+    
     background-color: #fcfbfb; 
     font-family: Raleway, Arial, sans-serif;
     font-size: 22px;
@@ -7,9 +10,24 @@ body {
 }
 header {
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 10% 50%;
     grid-template-rows: auto;
     text-align:left;
+    position:relative;
+    background-color:rgba(0,0,0, .7);
+    
+  
+
+}
+nav a {
+    padding: 14px 16px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: blue;
 }
 nav{
     display: flex;
@@ -18,4 +36,24 @@ nav{
 .logo{
     width: 80px;
     height: 80px;
+}
+#first_img{
+    
+    width: 100%;
+    object-fit: contain;
+    margin-top: -100px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+.logo-img{
+    width: 50px;
+    height: auto;
 }
