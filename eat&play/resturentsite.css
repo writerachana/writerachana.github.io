@@ -1,0 +1,21 @@
+body {
+    background-color: #fcfbfb; 
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-template-rows: auto;
+    text-align:left;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
