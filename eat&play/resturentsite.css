@@ -43,7 +43,11 @@ nav{
     object-fit: contain;
     margin-top: -100px;
 }
-
+.first-msg{
+    background-color: lightcoral;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f3646;
+}
 footer{
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
