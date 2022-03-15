@@ -1,0 +1,38 @@
+.block1 {
+    width: 50%;
+    border: 1px solid;
+    margin:left;
+  
+  }
+  
+  .block2 {
+    width: 50%;
+    border: 1px solid;
+    border-radius: 2px;
+    margin: auto;
+  }
+  .block3 {
+    width: 50%;
+    border: 1px solid;
+    margin-left: auto;
+  }
+  .block4 {
+    width: 50%;
+    border: 1px solid;
+    margin: auto;
+  }
+  p:nth-of-type(1) {text-align: left; }
+  p:nth-of-type(2) {text-align: center; }
+  p:nth-of-type(3) {text-align: right;}
+ .one{ text-align: right;}
+  .two{text-align: center;}
+  .three{text-align: left;}
+  .fourth{text-align: left;}
+  
+  div p { 
+    background-color: yellow;
+  }
+  
+  
+  
+  
