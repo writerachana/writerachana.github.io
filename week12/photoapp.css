@@ -1,0 +1,58 @@
+body{
+    background-color: #efefef;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.Photocard{
+max-width: 500px;
+color: #65686a;
+margin:0 auto;
+background-color: white;
+}
+.Photocard header{
+    display: grid;
+    padding:0 15px;
+    gap: 10px;
+    grid-template-columns: 1fr 8fr 4fr 1fr;
+    align-items: center;
+}
+.Photocard header img{
+    width: 40px;
+    border-radius: 100%;
+    padding: 10px 0;
+}
+.Photocard.user{
+font-weight: bold;
+}
+.Photocard.number{
+    color: #e4e3e7;
+    text-align: right;
+    font-size: 0.8em;
+}
+.Photocard.menu{
+    text-align: right;
+}
+.Photocard a:link, .Photocard a:visited, .Photocard a:hover, .Photocard a:active{
+    color: #bfbfbf;
+    text-decoration: none;
+}
+.Photocard a:hover{
+    color:#65686a;
+}
+.Photocard img{
+    width: 100%;
+}
+.Photocard footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 5fr;
+    grid-template-rows: 40px;
+    justify-items: left;
+    align-items: center;
+    gap: 6px;
+    padding: 0 15px;
+}
+.Photocard footer .love{
+justify-self: end;
+}
+.Photocard footer i{
+    font-size: 0.85em;
+}
