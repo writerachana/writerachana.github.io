@@ -115,7 +115,7 @@ nav{
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
+  -webkit-animation-name:fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
@@ -130,12 +130,58 @@ nav{
   from {opacity: .4}
   to {opacity: 1}
 }
+#restuesnt,.food_img,.third{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 400px;
 
+}
+#first_img,.second_img, .third_img{
+  width: 100%;
+  align-self: center;
+}
+#restuesnt h1, #restuesnt p,.third h2, .third p{
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+#restuesnt p, .third p{
+  align-self: flex-end;
+}
+.food_img h3, .food_img p{
+  grid-column: 1/3;
+  grid-row: 1/2;
 
+}
+.food_img h3{
+  text-align:center ;
+}
+.food_img p{
+  align-self: flex-end;
+  padding: 35px;
+}
 
+.second_img{
+  height: 400px;
+  }
 
-
-
+.food_img h3{
+  height: 100px;
+}
+.food_img{
+  height: 400px;
+}
+.third p{
+  align-self: flex-end;
+  padding: 50px;
+}
+.third h2{
+  text-align: center;
+}
+#social{
+  width: 290px;
+display: flex;
+justify-content: space-between;
+}
 
 footer{
     display: grid;
