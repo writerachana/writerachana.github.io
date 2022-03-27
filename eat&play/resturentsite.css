@@ -168,13 +168,21 @@ nav{
 #restuesnt h1, #restuesnt p,.third h2, .third p{
   grid-column: 2/4;
   grid-row: 1/2;
+  margin-left: 20%;
+}
+#restuesnt h1{
+  font-family: 'Hurricane', cursive; 
 }
 #restuesnt p, .third p{
   align-self: flex-end;
   box-sizing:content-box;
   box-shadow: 5px 5px 10px #6f3646;
   background-color: #d9c2a3;
- width: 100%;
+ width: 80%;
+ padding: 25px;
+ text-align: center;
+ margin-left: 10%;
+
   
 }
 .food_img h3, .food_img p{
@@ -189,11 +197,61 @@ nav{
   align-self: flex-end;
   padding: 35px;
 }
+.join{
+  grid-column: 2/3;
 
+  color:white;
+  background-color:black;
+  padding: 10px;
+  width: 30%;
+  align-self: flex-end;
+  margin-left: 50%;
+grid-row: 1/2;
+}
+.join:hover{
+  background-color:lightcoral;
+  color: black;
+}
+.join1{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  color:white;
+  background-color:black;
+  padding: 10px;
+  width: 30%;
+  align-self: flex-end;
+}
+.join1:hover{
+  background-color:lightcoral;
+  color: black;
+}
+.join2{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  color:white;
+  background-color:black;
+  padding: 10px;
+  width: 30%;
+  align-self: flex-end;
+  text-align: center;
+  margin-left: 80%;
+margin-bottom: 30px;
+}
+.join2:hover{
+  background-color:lightcoral;
+  color: black;
+}
 .second_img{
   height: 400px;
   }
-
+.second p{
+  box-sizing: content-box;
+box-shadow: 5px 5px 10px #6f3646;
+background-color: #d9c2a3;
+}
+.second h3{
+  font-family: 'Hurricane', cursive;
+}
 .food_img h3{
   height: 100px;
 }
@@ -249,6 +307,7 @@ justify-content: space-between;
   grid-column: 2/3;
   grid-row: 1/2;
   margin-left: 50px;
+  margin-bottom: 100%;
   font-family: 'Playfair Display', serif;
   
 }
@@ -323,21 +382,7 @@ justify-content: space-between;
   font-family: 'Playfair Display', serif;
 }
 
-.btn {
-  border-radius: 5em;
-  border: none; /* Remove borders */
-  color:whitesmoke; /* Add a text color */
-  padding: 14px 28px; /* Add some padding */
-  cursor: pointer; /* Add a pointer cursor on mouse-over */
-}
 
-.explore {
-  background-color: #2196F3;
-}
-
-.explore:hover {
-  background: #0b7dda;
-}
 
 
 
