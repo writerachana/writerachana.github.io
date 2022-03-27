@@ -14,6 +14,30 @@ header {
     position:relative;
     background-color:rgba(0,0,0,.9);
 }
+.icon-bar {
+  grid-column: 2/3;
+  width: 100%; /* Full-width */
+  background-color:rgba(0,0,0,.9); /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+  background-color:wheat; /* Add a hover color */
+}
+
+.active {
+  background-color: #04AA6D; /* Add an active/current color */
+}
 nav a {
     padding: 14px 16px;
 }
@@ -22,7 +46,7 @@ a{
     text-decoration: none;
 }
 nav a:hover{
-    background-color: blue;
+    background-color:burlywood;
 }
 nav{
     display: flex;
@@ -130,6 +154,7 @@ nav{
   from {opacity: .4}
   to {opacity: 1}
 }
+
 #restuesnt,.food_img,.third{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -146,6 +171,11 @@ nav{
 }
 #restuesnt p, .third p{
   align-self: flex-end;
+  box-sizing:content-box;
+  box-shadow: 5px 5px 10px #6f3646;
+  background-color: #d9c2a3;
+ width: 100%;
+  
 }
 .food_img h3, .food_img p{
   grid-column: 1/3;
@@ -182,6 +212,139 @@ nav{
 display: flex;
 justify-content: space-between;
 }
+.second-page{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* grid-template-rows: 1fr 1fr ; */
+  padding:40px;
+  margin: 20px;
+}
+.food{
+  grid-column: 1/3;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* grid-template-rows: 1fr 1fr; */
+}
+.hero-3{
+  grid-row: 1/2;
+  grid-column: 1/2;
+  height: 500px;
+  width: 600px;
+  object-fit: cover;
+  margin-bottom: -500px;
+  border: 10px solid #d9c2a3;
+  transition: transform .5s;
+  box-shadow: 5px 5px 10px #6f3646;
+}
+.hero-3 img{
+  width: auto;
+  height: auto;
+
+}
+.food h1{
+  margin-top: 250px;
+  font-family: 'Hurricane', cursive;
+}
+.food-msg{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-left: 50px;
+  font-family: 'Playfair Display', serif;
+  
+}
+.yoga{
+  grid-column: 1/3;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* grid-template-rows: 1fr 1fr;  */
+}
+.hero-2{
+  grid-row: 1/2;
+  grid-column: 1/2;
+  height: 360px;
+  width: 600px;
+  object-fit: cover;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border: 10px solid #d9c2a3;
+  transition: transform .5s;
+  box-shadow: 5px 5px 10px #6f3646;
+}
+.hero-2 img{
+  width: auto;
+  height: auto;
+
+}
+.yoga-msg{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin: 30px;
+  margin-top: 50px;
+  font-family: 'Playfair Display', serif;
+}
+.yoga h1, h2{
+  font-family: 'Hurricane', cursive;
+}
+.lag{
+  grid-column: 1/3;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* grid-template-rows: 1fr 1fr;  */
+}
+.hero-1{
+  grid-row: 1/2;
+  grid-column: 1/2;
+  height: 400px;
+  width: 600px;
+  object-fit: cover;
+  margin-top: 20px;
+  border: 10px solid #d9c2a3;
+  transition: transform .5s;
+  box-shadow: 5px 5px 10px #6f3646;
+
+}
+.hero-3:hover,.hero-2:hover,.hero-1:hover{
+  opacity: .6;
+  transform: scale(1.1);
+}
+.hero-1 img{
+  width: 100%;
+  height: auto;
+
+}
+.lag h1{
+  font-family: 'Hurricane', cursive;
+}
+.lag-msg{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin: 30px;
+  margin-top: 50px;
+  font-family: 'Playfair Display', serif;
+}
+
+.btn {
+  border-radius: 5em;
+  border: none; /* Remove borders */
+  color:whitesmoke; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+
+.explore {
+  background-color: #2196F3;
+}
+
+.explore:hover {
+  background: #0b7dda;
+}
+
+
+
+
+
+
+
 
 footer{
     display: grid;
