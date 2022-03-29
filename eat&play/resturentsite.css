@@ -13,6 +13,7 @@ header {
     text-align:left;
     position:relative;
     background-color:rgba(0,0,0,.9);
+
 }
 .icon-bar {
   grid-column: 2/3;
@@ -49,8 +50,10 @@ nav a:hover{
     background-color:burlywood;
 }
 nav{
+  margin-top: 10px;
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
 .logo{
     width: 80px;
