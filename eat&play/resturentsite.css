@@ -17,7 +17,7 @@ header {
 .icon-bar {
   grid-column: 2/3;
   width: 100%; /* Full-width */
-  background-color:rgba(0,0,0,.9); /* Dark-grey background */
+  background-color:rgba(0,0,0,.8); /* Dark-grey background */
   overflow: auto; /* Overflow due to float */
 }
 
@@ -94,6 +94,7 @@ nav{
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+  background-color: #f2f2f2;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -209,7 +210,7 @@ nav{
 grid-row: 1/2;
 }
 .join:hover{
-  background-color:lightcoral;
+  background-color:burlywood;
   color: black;
 }
 .join1{
@@ -222,7 +223,7 @@ grid-row: 1/2;
   align-self: flex-end;
 }
 .join1:hover{
-  background-color:lightcoral;
+  background-color:burlywood;
   color: black;
 }
 .join2{
@@ -238,7 +239,7 @@ grid-row: 1/2;
 margin-bottom: 30px;
 }
 .join2:hover{
-  background-color:lightcoral;
+  background-color:burlywood;
   color: black;
 }
 .second_img{
@@ -249,10 +250,10 @@ margin-bottom: 30px;
 box-shadow: 5px 5px 10px #6f3646;
 background-color: #d9c2a3;
 }
-.second h3{
+.second h2{
   font-family: 'Hurricane', cursive;
 }
-.food_img h3{
+.food_img h2{
   height: 100px;
 }
 .food_img{
@@ -398,9 +399,9 @@ text-align: center;
   padding: 14px 28px; /* Add some padding */
   cursor: pointer; /* Add a pointer cursor on mouse-over */
 }
-.info {background-color:grey;
+.info {background-color:#d9c2a3;
   font-family: 'Playfair Display', serif;} /* Blue */
-.info:hover {background: #0b7dda;}
+.info:hover {background: burlywood;}
 
 
 
