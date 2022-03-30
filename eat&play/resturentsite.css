@@ -410,6 +410,7 @@ text-align: center;
 
 }
 .lag h1{
+  margin: 0px;
   font-family: 'Hurricane', cursive;
   grid-column: 2;
   text-align: center;
@@ -419,7 +420,7 @@ text-align: center;
   grid-row: 2;
   padding: 50px;
   margin: 0px;
-  margin-top: 50px;
+  
   text-align: center;
   font-family: 'Playfair Display', serif;
 }
