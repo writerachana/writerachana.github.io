@@ -56,7 +56,8 @@ nav{
     text-align: center;
 }
 .logo{
-    width: 80px;
+  margin: 10px;
+    width: 100px;
     height: 80px;
 }
 .logo-img{
