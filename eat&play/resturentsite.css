@@ -40,7 +40,9 @@ header {
   background-color: #04AA6D; /* Add an active/current color */
 }
 nav a {
-    padding: 14px 16px;
+  margin-top: 15px;
+  padding: 14px 16px;
+  text-align: center;
 }
 a{
     color: white;
@@ -50,7 +52,7 @@ nav a:hover{
     background-color:burlywood;
 }
 nav{
-  margin-top: 10px;
+    margin-top: 10px;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -58,7 +60,7 @@ nav{
 .logo{
   margin: 10px;
     width: 100px;
-    height: 80px;
+    /* height: 80px; */
 }
 .logo-img{
     width: 50px;
@@ -264,7 +266,8 @@ nav{
   margin-right: 50px;
   }
 .second p{
-  width: 90%;
+margin-left: 50px;
+width: 70%;
 box-sizing: content-box;
 box-shadow: 5px 5px 10px #6f3646;
 background-color: #d9c2a3;
@@ -605,4 +608,6 @@ footer{
     color: wheat;
 }
 
-
+footer .logo{
+  margin-left: -114px;
+}
