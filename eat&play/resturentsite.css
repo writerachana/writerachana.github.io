@@ -450,7 +450,7 @@ text-align: center;
 .container {
   position: relative;
   max-width: 800px; /* Maximum width */
-  margin: 0 auto; /* Center it */
+  /* margin: 0 auto; Center it */
   margin-left: 50px;
  
 }
@@ -686,10 +686,10 @@ footer{
     color: wheat;
 }
 
-/* footer .logo{
+footer .logo{
   margin-left: -114px;
-} */
-.fa {
+}
+/* .fa {
   padding: 20px;
   font-size: 30px;
   width: 50px;
@@ -731,4 +731,4 @@ footer{
   background: gray;
   color: white;
 }
-
+ */
