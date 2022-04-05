@@ -32,9 +32,26 @@
             </header>
         </div>
         <main class ='contact'>
-        <img class="con" src="2_2.jpeg" alt="Eat and play">
-        <form action="/action_page.php" style="max-width:500px;margin:auto">
+          <div class="bg-img">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <!-- <img class="con" src="2_2.jpeg" alt="Eat and play"> -->
+        <form action="/action_page.php" style="margin:auto" class="login">
             <h2>Register Form</h2>
+            <div class="container_c">
+              <!-- <form action="/action_page.php"> -->
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
             <div class="input-container">
               <i class="fa fa-user icon"></i>
               <input class="input-field" type="text" placeholder="Username" name="usrnm">
@@ -49,9 +66,18 @@
               <i class="fa fa-key icon"></i>
               <input class="input-field" type="password" placeholder="Password" name="psw">
             </div>
+            
+            
+                <!-- <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit"> -->
+              
+            </div>
           
             <button type="submit" class="btn2">Register</button>
           </form>
+        </div>
         </main>
           
       <footer>
